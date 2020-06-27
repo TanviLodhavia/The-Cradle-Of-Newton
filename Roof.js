@@ -13,10 +13,11 @@ class Roof{
     }
     display(){
         var pos=this.body.position
+        strokeWeight(5);
+        fill(85,11,13);
         rectMode(CENTER);
         rect(pos.x,pos.y,this.width,this.height);
-        strokeWeight(5);
-        stroke("blue");
-        fill("white")
+        
+        
     }
 }
